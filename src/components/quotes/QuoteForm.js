@@ -32,6 +32,7 @@ const QuoteForm = (props) => {
 
   return (
     <Fragment>
+      {/* Prompt is currently not supported yet by v6 */}
       {/* <Prompt
         when={isEntering}
         message={(location) =>
